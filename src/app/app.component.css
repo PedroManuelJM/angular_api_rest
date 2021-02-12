@@ -1,0 +1,75 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+
+}
+#titulo{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: rgb(41, 10, 126);
+}
+.console_angular {
+    width: 100%;
+    max-width: 92vw;
+    margin-left: 15px;
+    margin-right: 40px;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+.console__head_angular {
+    overflow: hidden;
+    background-color: #d5d5d5;
+    padding: 8px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .console__body_angular {
+    background-color: #1e1e1e;
+    padding: 30px 17px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .console__dot_angular {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 7px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+  }
+  
+  .console__dot--red_angular {
+    background-color: #ff6057;
+  }
+  .console__dot--yellow_angular {
+    background-color: #ffc22e;
+  }
+  .console__dot--green_angular {
+    background-color: #28ca40;
+  }
+  
+  .console__prompt_angular {
+    display: block;
+    margin-bottom: 15px;
+    font-family: "Source Code Pro",monospace;
+    font-size: 15px;
+    color: white;
+  }
+
+  #angular{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #icon-angular{
+      float: right;
+  }
+  
